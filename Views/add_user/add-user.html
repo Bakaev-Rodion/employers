@@ -1,0 +1,35 @@
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Add employer</title>
+</head>
+<body>
+<form method="POST" action="add_user_action.php">
+    <div class="email">
+        <label for="userEmail">Email</label>
+        <input id="userEmail" name="userEmail" type="email" required>
+    </div>
+    <div class="name">
+        <label for="userName">User name</label>
+        <input id="userName" name="userName" type="text" required>
+    </div>
+    <div class="address">
+        <label for="userAddress">Address</label>
+        <input id="userAddress" name="userAddress" type="text" required>
+    </div>
+    <div class="phone">
+        <label for="userPhone">Phone number</label>
+        <input id="userPhone" name="userPhone" type="text" required>
+    </div>
+    <div class="comments">
+        <label for="userComments">Comments</label>
+        <input id="userComments" name="userComments" type="text">
+    </div>
+    <div class="department">
+        <label for="userDepartment">Department</label>
+        <select id="userDepartment" name="userDepartment">
+            <option name="value0" selected>None</option>
+        </select>
+    </div>
+    <input type="submit">
+</form>
+</body>
